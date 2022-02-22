@@ -1,0 +1,205 @@
+# Page settings
+
+baseURL = "https://yannbizet.github.io/fr/"
+languageCode = "fr"
+relativeURLs = true
+canonifyURLs = true
+title = "Yann Bizet CV fr"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Yann Bizet"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Yann Bizet"
+        tagline = "Site Reliability Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Versailles 78000, France"
+        date_birth = "01/10/1993"
+        driving_license = "Permis B"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:yannbizet01@gmail.com"
+        text = "yannbizet01@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+ 33 6 44 21 89 70"
+        text = "+ 33 6 44 21 89 70"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Techniques"
+        [[params.skills.list.items]]
+        details = "Linux"
+        [[params.skills.list.items]]
+        details = "Git"
+        [[params.skills.list.items]]
+        details = "Bash/Python"
+        [[params.skills.list.items]]
+        details = "Docker"
+        [[params.skills.list.items]]
+        details = "Drone (CI)"
+        [[params.skills.list.items]]
+        details = "Rundeck (CD)"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        [[params.skills.list.items]]
+        details = "Consul/Consul-template"
+        [[params.skills.list.items]]
+        details = "Vault"
+        [[params.skills.list.items]]
+        details = "Percona/PostgreSQL/Redis"
+        [[params.skills.list.items]]
+        details = "Elasticsearch"
+        [[params.skills.list.items]]
+        details = "Nginx/Apache"
+        [[params.skills.list.items]]
+        details = "HAProxy"
+        [[params.skills.list.items]]
+        details = "Varnish"
+        [[params.skills.list.items]]
+        details = "Akamai"
+        [[params.skills.list.items]]
+        details = "Postfix"
+        [[params.skills.list.items]]
+        details = "Prometheus/Grafana"
+        [[params.skills.list.items]]
+        details = "Alertmanager"
+
+        [[params.skills.list]]
+        title = "professionnelles"
+        [[params.skills.list.items]]
+        details = "Communication"
+        [[params.skills.list.items]]
+        details = "Satisfaction cliente"
+        [[params.skills.list.items]]
+        details = "Consciencieux"
+        [[params.skills.list.items]]
+        details = "Sens des responsabilités"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Ecole Ingénieur CPE Lyon Spécialité Réseau et protocoles"
+        university = "CPE Lyon "
+        dates = "2014 - 2017"
+        [[params.education.list]]
+        degree = "Classe Préparatoire Grandes Écoles"
+        university = "Institution des Chartreux, Lyon"
+        dates = "2011 - 2014"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "français"
+        level = "Langue maternelle"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Technique"
+
+    [params.summary]
+        enable = true
+        text = "En tant qu'ingéneur SRE (Site reliability Engineer) - administrateur système, mon travail consiste à maintenir une infrastructure d'hébergement web pour de la production. Cela inclu la gestion du parc de serveur Linux, l'utilisation de solutions OpenSource modernes dans un environnement sécurisé, l'automatisation de taches répétitives. Je travaille également conjointement avec différents développeurs (De l'entreprise ou de différentes agences web) afin de comprendre et répondre à leurs besoins."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Site Reliability Engineer"
+        dates = "2019 - Present"
+        company = "Swatch Group Services"
+        location = "Bienne Suisse"
+        url = "https://www.swatchgroup.com/en/companies-brands/corporate/swatch-group-services"
+        details = "Travaillant au sein de l'équipe SRE de Swatchgroup Services, je participe à la gestion de l'infrastructure hébergeant les différents sites corporate et E-commerce des filiales du groupe. Notre but est de fournir un environnement stable, sécurisé et automatisé au sein d'un cloud provider suisse. Nous travaillons avec plusieurs agences web du monde entier afin d'héberger leur applications PHP ou python. Nous leur fournissons de plus un support technique et participons au piquet 24/7"
+        [[params.experience.list.items]]
+        details = "Debug de problèmes quotidiens de production"
+        [[params.experience.list.items]]
+        details = "Docker et Docker-compose sur l'infrastructure"
+        [[params.experience.list.items]]
+        details = "CI/CD avec Drone et Rundeck"
+        [[params.experience.list.items]]
+        details = "Infrastructure As Code avec Terraform chez un cloud provider suisse"
+        [[params.experience.list.items]]
+        details = "Gestion de configurations avec Ansible"
+        [[params.experience.list.items]]
+        details = "Serveux Linux (CentOS, Debian, Ubuntu)"
+        [[params.experience.list.items]]
+        details = "Scripting Bash et Python"
+        [[params.experience.list.items]]
+        details = "Service discovery avec Consul and templating avecconsul-template"
+        [[params.experience.list.items]]
+        details = "Gestion des secrets avec Vault"
+        [[params.experience.list.items]]
+        details = "Configuration des services web (Apache, Nginx, Haproxy)"
+        [[params.experience.list.items]]
+        details = "Administration et maintenance des bases de données (Percona, Postgresql)"
+        [[params.experience.list.items]]
+        details = "Akamai CDN et WAF"
+        [[params.experience.list.items]]
+        details = "Monitoring/Dashboard avec Prometheus et Grafana"
+
+        [[params.experience.list]]
+        title = "Administrateur Systèmes et Réseaux"
+        dates = "2018 - 2019"
+        company = "Virtua S.A (Smile Suisse)"
+        location = "Morges Suisse"
+        url = "https://virtua.ch"
+        details = "J'ai travaillé au sein de cette agence web suisse dans le département hosting n'utilisant qu'exclusivement des solutions OpenSource. Mon role constitait à designer, déployer, gérer et debuger les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de developpement internes et de plusieurs agences externes."
+        [[params.experience.list.items]]
+        details = "Administration serveus: Triton SmartOS, Debian and OpenBSD"
+        [[params.experience.list.items]]
+        details = "Git et SaltStack"
+        [[params.experience.list.items]]
+        details = "HAProxy - Nginx - Apache"
+        [[params.experience.list.items]]
+        details = "Bind - Serveur DNS Knot"
+        [[params.experience.list.items]]
+        details = "Percona - Redis - Varnish"
+        [[params.experience.list.items]]
+        details = "Scripting Bash"
+
+        [[params.experience.list]]
+        title = "Administrateur Systèmes et Réseaux"
+        dates = "2017 - 2018"
+        company = "RAS Suisse"
+        location = "Nyon Suisse"
+        url = "http://www.ras-itgroup.ch/"
+        details = "Mes missions étaient liées à l'administration de l'infrastructure de l'entreprise dans un Datacenter. Il s'agissait d'un environnement Windows pour plusieurs petites et moyennes entreprises."
+        [[params.experience.list.items]]
+        details = "Virtualisation Vmware VCenter"
+        [[params.experience.list.items]]
+        details = "Microsoft Exchange - SpamTitan"
+        [[params.experience.list.items]]
+        details = "Implémentation ITOP (CMDB et solution de ticketing)"
+        [[params.experience.list.items]]
+        details = "Automatisation des rapports clients avec script VBA"
+        [[params.experience.list.items]]
+        details = "Mise en place d'une solution de stockage Nextcloud pour un client"
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Loisirs"
+        [[params.information.list.items]]
+        details = "Aviation (PPL Licence d’aviation privée"
+        [[params.information.list.items]]
+        details = "Musique (DJ)"
+        [[params.information.list.items]]
+        details = "Randonnée"
