@@ -85,7 +85,7 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "Communication"
         [[params.skills.list.items]]
-        details = "Satisfaction cliente"
+        details = "Satisfaction client"
         [[params.skills.list.items]]
         details = "Consciencieux"
         [[params.skills.list.items]]
@@ -160,7 +160,7 @@ theme = "hugo-devresume-theme"
         company = "Virtua S.A (Smile Suisse)"
         location = "Morges Suisse"
         url = "https://virtua.ch"
-        details = "J'ai travaillé au sein de cette agence web suisse dans le département hosting n'utilisant qu'exclusivement des solutions OpenSource. Mon role constitait à designer, déployer, gérer et debuger les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de developpement internes et de plusieurs agences externes."
+        details = "J'ai travaillé dans cette agence web suisse au sein du département hosting n'utilisant que des solutions OpenSource. Mon rôle constitait à designer, déployer, gérer et debuger les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de developpement internes et de plusieurs agences externes."
         [[params.experience.list.items]]
         details = "Administration serveus: Triton SmartOS, Debian and OpenBSD"
         [[params.experience.list.items]]
@@ -198,7 +198,7 @@ theme = "hugo-devresume-theme"
         [[params.information.list]]
         title = "Loisirs"
         [[params.information.list.items]]
-        details = "Aviation (PPL Licence d’aviation privée"
+        details = "Aviation (PPL Licence d’aviation privée)"
         [[params.information.list.items]]
         details = "Musique (DJ)"
         [[params.information.list.items]]
