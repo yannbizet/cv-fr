@@ -203,5 +203,3 @@ theme = "hugo-devresume-theme"
         details = "Aviation (PPL Licence d’aviation privée)"
         [[params.information.list.items]]
         details = "Musique (DJ)"
-        [[params.information.list.items]]
-        details = "Randonnée"
