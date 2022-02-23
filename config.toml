@@ -109,9 +109,11 @@ theme = "hugo-devresume-theme"
         [[params.languages.list]]
         name = "français"
         level = "Langue maternelle"
+        url = "https://yannbizet.github.io/fr/"
         [[params.languages.list]]
         name = "Anglais"
         level = "Technique"
+        url = "https://yannbizet.github.io"
 
     [params.summary]
         enable = true
