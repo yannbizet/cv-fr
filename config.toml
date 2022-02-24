@@ -4,7 +4,7 @@ baseURL = "https://yannbizet.github.io/fr/"
 languageCode = "fr"
 relativeURLs = true
 canonifyURLs = true
-title = "Yann Bizet CV fr"
+title = "CV Yann Bizet"
 theme = "hugo-devresume-theme"
 
 [params]
