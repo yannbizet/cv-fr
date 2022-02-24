@@ -17,7 +17,7 @@ theme = "hugo-devresume-theme"
     [params.profile]
         enable = true
         name = "Yann Bizet"
-        tagline = "Site Reliability Engineer"
+        tagline = "Ingénieur de fiabilité de site - SRE"
         avatar = "avatar.png"
 
     [params.contact]
@@ -83,10 +83,6 @@ theme = "hugo-devresume-theme"
         [[params.skills.list]]
         title = "professionnelles"
         [[params.skills.list.items]]
-        details = "Communication"
-        [[params.skills.list.items]]
-        details = "Satisfaction client"
-        [[params.skills.list.items]]
         details = "Consciencieux"
         [[params.skills.list.items]]
         details = "Sens des responsabilités"
@@ -107,7 +103,7 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.languages.list]]
-        name = "français"
+        name = "Français"
         level = "Langue maternelle"
         url = "https://yannbizet.github.io/fr/"
         [[params.languages.list]]
@@ -117,20 +113,20 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "En tant qu'ingéneur SRE (Site reliability Engineer) - administrateur système, mon travail consiste à maintenir une infrastructure d'hébergement web pour de la production. Cela inclu la gestion du parc de serveur Linux, l'utilisation de solutions OpenSource modernes dans un environnement sécurisé, l'automatisation de taches répétitives. Je travaille également conjointement avec différents développeurs (De l'entreprise ou de différentes agences web) afin de comprendre et répondre à leurs besoins."
+        text = "En tant qu'ingénieur SRE (Site Reliability Engineer) - administrateur système, mon travail consiste à maintenir une infrastructure d'hébergement web pour de la production. Cela inclut la gestion du parc de serveur Linux, l'utilisation de solutions Open Source modernes dans un environnement sécurisé, l'automatisation de tâches répétitives. Je travaille également avec différents développeurs (De l'entreprise ou de différentes agences web) afin de comprendre et répondre à leurs besoins."
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
         title = "Site Reliability Engineer"
-        dates = "2019 - Present"
+        dates = "2019 - "
         company = "Swatch Group Services"
         location = "Bienne Suisse"
         url = "https://www.swatchgroup.com/en/companies-brands/corporate/swatch-group-services"
-        details = "Travaillant au sein de l'équipe SRE de Swatchgroup Services, je participe à la gestion de l'infrastructure hébergeant les différents sites corporate et E-commerce des filiales du groupe. Notre but est de fournir un environnement stable, sécurisé et automatisé au sein d'un cloud provider suisse. Nous travaillons avec plusieurs agences web du monde entier afin d'héberger leur applications PHP ou python. Nous leur fournissons de plus un support technique et participons au piquet 24/7"
+        details = "Travaillant au sein de l'équipe SRE de Swatchgroup Services, je participe à la gestion de l'infrastructure hébergeant les différents sites corporate et E-commerce des filiales du groupe. L'objectif est de fournir un environnement stable, sécurisé et automatisé au sein d'un cloud provider suisse. Je travaille avec plusieurs agences web du monde entier afin d'héberger leur applications PHP ou python. Je contribue également au support technique et au service de piquet."
         [[params.experience.list.items]]
-        details = "Debug de problèmes quotidiens de production"
+        details = "Troubleshooting de problèmes quotidiens de production"
         [[params.experience.list.items]]
         details = "Docker et Docker-compose sur l'infrastructure"
         [[params.experience.list.items]]
@@ -144,7 +140,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Scripting Bash et Python"
         [[params.experience.list.items]]
-        details = "Service discovery avec Consul and templating avecconsul-template"
+        details = "Service discovery avec Consul and templating avec consul-template"
         [[params.experience.list.items]]
         details = "Gestion des secrets avec Vault"
         [[params.experience.list.items]]
@@ -162,9 +158,9 @@ theme = "hugo-devresume-theme"
         company = "Virtua S.A (Smile Suisse)"
         location = "Morges Suisse"
         url = "https://virtua.ch"
-        details = "J'ai travaillé dans cette agence web suisse au sein du département hosting n'utilisant que des solutions OpenSource. Mon rôle constitait à designer, déployer, gérer et debuger les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de developpement internes et de plusieurs agences externes."
+        details = "J'ai travaillé dans cette agence web suisse au sein du département hosting n'utilisant que des solutions Open Source. Mon rôle constistait à déployer, gérer et débuguer les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de développement internes et de plusieurs agences externes."
         [[params.experience.list.items]]
-        details = "Administration serveus: Triton SmartOS, Debian and OpenBSD"
+        details = "Administration serveur: Triton SmartOS, Debian and OpenBSD"
         [[params.experience.list.items]]
         details = "Git et SaltStack"
         [[params.experience.list.items]]
