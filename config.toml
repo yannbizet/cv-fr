@@ -124,9 +124,11 @@ theme = "hugo-devresume-theme"
         company = "Swatch Group Services"
         location = "Bienne Suisse"
         url = "https://www.swatchgroup.com/en/companies-brands/corporate/swatch-group-services"
-        details = "Travaillant au sein de l'équipe SRE de Swatchgroup Services, je participe à la gestion de l'infrastructure hébergeant les différents sites corporate et E-commerce des filiales du groupe. L'objectif est de fournir un environnement stable, sécurisé et automatisé au sein d'un cloud provider suisse. Je travaille avec plusieurs agences web du monde entier afin d'héberger leur applications PHP ou python. Je contribue également au support technique et au service de piquet."
+        details = "Travaillant au sein de l'équipe SRE de Swatchgroup Services, je participe à la gestion de l'infrastructure hébergeant les différents sites corporate et E-commerce des filiales du groupe. L'objectif est de fournir un environnement stable, sécurisé et automatisé au sein d'un cloud provider suisse. Je travaille avec plusieurs agences web afin d'héberger leur applications PHP ou Python. Cela comprend un support technique pour les différentes demandes liées à de la production, tel que l'automatisation des déploiements, l'amélioration de la CI CD, la mise à jour des images docker, l'upgrade des CMS. Je prend également part au service de piquet."
         [[params.experience.list.items]]
         details = "Troubleshooting de problèmes quotidiens de production"
+        [[params.experience.list.items]]
+        details = "Automatisation des déploiements applicatifs"
         [[params.experience.list.items]]
         details = "Docker et Docker-compose sur l'infrastructure"
         [[params.experience.list.items]]
