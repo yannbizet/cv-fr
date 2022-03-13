@@ -158,7 +158,7 @@ theme = "hugo-devresume-theme"
         company = "Virtua S.A (Smile Suisse)"
         location = "Morges Suisse"
         url = "https://virtua.ch"
-        details = "J'ai travaillé dans cette agence web suisse au sein du département hosting n'utilisant que des solutions Open Source. Mon rôle constistait à déployer, gérer et débuguer les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de développement internes et de plusieurs agences externes."
+        details = "J'ai travaillé dans cette agence web suisse au sein du département hosting n'utilisant que des solutions Open Source. Mon rôle consistait à déployer, gérer et débuguer les infra web pour une utilisation interne ainsi que pour l'hébergement de sites clients (Pour la plupart en PHP). J'ai également eu la chance de collaborer avec les équipes de développement internes et de plusieurs agences externes."
         [[params.experience.list.items]]
         details = "Administration serveur: Triton SmartOS, Debian and OpenBSD"
         [[params.experience.list.items]]
